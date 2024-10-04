@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipe</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
   </head>
   <body>
     <!-- HEADER -->
@@ -24,22 +28,24 @@
     </section>
 
     <!-- CONTACTS -->
-    <section class="contact">
+    <section class="about">
+      <div class="container">
       <div class="about__img">
         <div class="about__title">
           <h2>Contact Us</h2>
         </div>
         <img src="./images/chicken.jpeg" alt="" />
       </div>
+      </div>
       <div class="contact__wrapper">
-        <div class="left">
+        <div class="contact__left">
           <h2>Let's talk about food</h2>
 
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
             suscipit.
           </p>
-          <form action=""></form>
+          <form action="">
               <label for="">Name</label>
               <input type="text" placeholder="" />
               <label for="">Email</label>
@@ -49,12 +55,11 @@
               <label for="">Message</label>
               <textarea name="" id=""></textarea>
             </form>
-            <a href="" class="btn bg--dark">Send</a>
-          </div>
+            <!-- <a href="" class="btn bg--dark">Send</a>  -->
+          </div> 
+        
 
-        </div>
-
-        <div class="contactDetails__icons"></div>
+        <div class="contactDetails__icons">
             <h2>Contact Info</h2>
             <li>
               <a href=""><i class="fa-solid fa-envelope"></i></a
@@ -67,6 +72,7 @@
               <a href=""><i class="fa-solid fa-location-dot"></i></a>The Home of
               TheRecipe 75 Ninth Avenue New York, NY 10011
             </li>
+          </div>
           </div>
       </div>
     </section>
